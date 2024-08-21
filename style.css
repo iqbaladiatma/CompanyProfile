@@ -1,0 +1,40 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body , main {
+    margin: 0 auto;
+    font-family: 'Roboto' 'Helvetica', Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+/* css untuk header,px adalah yang bisa dicustom,persen hanya ada 100% jadi akan fullscreen,lebar website kita akan mengikuti ukuran layar kita. */
+header{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    color: rgba(255, 253, 253, 0.87);
+    background-color: rgba(0, 0, 0, 0.92);
+}
+.header-wrapper { 
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+
+
+
+/* kalau kelas pakai titik, */
