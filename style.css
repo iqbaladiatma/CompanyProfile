@@ -178,7 +178,7 @@ span{
 .iphone-12 .title p {
     font-size: 25px;
     font-weight: bold;
-    color: rgba(41, 41, 41, 0.89)
+    color: rgba(41, 41, 41, 0.89);
 }
 
  .cta-links {
@@ -190,7 +190,6 @@ span{
   width: 100%;
   padding-top: 20px;
 }
-
 .iphone-12-pro {
   height: 90%;
   min-height: 100%;
@@ -199,6 +198,61 @@ span{
   background-position: center;
   background-repeat: no-repeat;
 }
+.iphone-12-pro .title {
+  text-align: center;
+}
+.iphone-12-pro .title h1 {
+  font-size: 50px;
+  color:rgba(255, 253, 253, 0.897);
+  font-weight: 700;
+}
+/* font-size ori : 30px */
+.iphone-12-pro .title p {
+  font-size: 30px;
+  font-weight: default;
+  color: rgba(255, 253, 253, 0.897);
+}
+.iphone-12-pro .cta-links {
+  text-align: center;
+}
+/* Fitness section */
+.title {
+  text-align: center;
+}
+.title .hello {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 40px;
+  color: rgba(0, 0, 0, 0.897);
+}
+.title .A {
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.title p {
+  font-size: 20px;
+}
+.title .cta-links {
+  text-align: center;
+}
+.image-container .fitness {
+  height: 500px;
+  width: 100%;
+  padding-top: 0%;
+  flex: auto;
+}
+.fitness {
+  height: 90%;
+  min-height: 100%;
+  background-image: url('/img/apple-fitness.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-top: 00px ;
+}
+
 
 /* Responsive */
 .menu-logo {
